@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.claude/skills/impeccable/scripts/impeccable:*)",
+      "Bash(bash .claude/skills/product-ad-cinema/scripts/:*)",
+      "Bash(higgsfield account status)",
+      "Bash(ffprobe:*)"
+    ]
+  }
+}

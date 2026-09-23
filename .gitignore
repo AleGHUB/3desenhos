@@ -1,0 +1,9 @@
+# Saídas de geração (imagens, takes, vídeos)
+output/
+input/
+
+# Cache/build local do impeccable
+.impeccable/build/
+.impeccable/cache/
+
+.DS_Store
