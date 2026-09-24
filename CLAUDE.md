@@ -19,29 +19,36 @@ Estúdio de design, branding, web e automação. Este repositório concentra o k
 | Animação web com GSAP: tweens, timelines, ScrollTrigger, plugins, React, performance | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-plugins`, `gsap-utils`, `gsap-react`, `gsap-frameworks`, `gsap-performance` | greensock/gsap-skills (MIT) |
 | Foto amadora de produto → ad vertical 15s cinematográfico (Higgsfield + Kling + ffmpeg) | `product-ad-cinema` | Agent Lab |
 | Roteiro de Reel com tom extraído de um Instagram de referência + hashtags + trilhas | `reel-roteiro` | Agent Lab |
-| Estressar um plano/ideia com perguntas duras | `grill-me` / `grilling` | mattpocock/skills (MIT) |
+| Estressar um plano/ideia com perguntas duras (gatilho: "grill") | `grilling` | mattpocock/skills (MIT) |
 | Protótipo descartável para validar lógica ou UI | `prototype` | mattpocock/skills |
 | Bug difícil ou regressão de performance | `diagnosing-bugs` | mattpocock/skills |
 | Feature ou correção guiada por testes | `tdd` | mattpocock/skills |
 | Pesquisa em fontes primárias salva em Markdown | `research` | mattpocock/skills |
-| Passar o contexto para outra sessão/agente | `handoff` | mattpocock/skills |
-| Escrever/editar skills, CLAUDE.md ou AGENTS.md | `writing-for-agents` | mattpocock/skills |
+| Passar o contexto para outra sessão/agente (só via `/handoff`) | `handoff` | mattpocock/skills |
 
 ### Agents (`.claude/agents/`)
 
 | Agent | Uso |
 |---|---|
-| `ceo-estrategista` | Veredito honesto + plano tático para decisões de negócio e marca |
-| `marketing-agent` | Campanhas, posicionamento, copy de landing/e-mail/social/ads |
+| `ceo-estrategista` | Estratégia: veredito honesto + plano tático para negócio, preço, oferta e posicionamento |
+| `marketing-agent` | Execução: campanhas, copy de landing/e-mail/social/ads, calendário de conteúdo |
 | `seo-specialist` | Auditoria técnica de SEO, schema, Core Web Vitals |
-| `a11y-architect` | WCAG 2.2 em componentes e design systems |
-| `performance-optimizer` | Bundle, render e gargalos de runtime |
-| `planner` | Plano de implementação para features complexas |
-| `code-reviewer` | Revisão após qualquer mudança de código |
-| `security-reviewer` | Código com input de usuário, auth, APIs ou dados sensíveis |
 | `impeccable-*` (4) | Subagentes internos do impeccable (documenter, finish-reviewer, asset-producer, manual-edit-applier) |
 
-Os agents genéricos vêm de affaan-m/everything-claude-code (MIT).
+`marketing-agent` e `seo-specialist` vêm de affaan-m/everything-claude-code (MIT).
+
+### Sem duplicar o que já é nativo
+
+Para estas tarefas, use a ferramenta nativa do Claude Code, não crie agent/skill próprio:
+
+| Tarefa | Use |
+|---|---|
+| Revisão de código | `/code-review` |
+| Revisão de segurança | `/security-review` |
+| Plano de implementação | agent nativo `Plan` |
+| Acessibilidade e performance de UI | `/impeccable audit` e `/impeccable optimize` |
+| Performance de animação | `gsap-performance` |
+| Criar ou editar skills | `skill-creator` |
 
 ### Comandos (`.claude/commands/`)
 
