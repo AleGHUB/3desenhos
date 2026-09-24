@@ -1,179 +1,239 @@
-# Legal Alumínios: estudo comercial para a reunião
+# Legal Alumínios: estudo comercial para a reunião (v2)
 
 > Preparado em 24/09/2026 pela 3desenhos.
-> **Limite deste estudo:** o Instagram (@legalaluminios), o perfil no Google e a ficha do CNPJ (60.531.785/0001-50) não abriram no ambiente de pesquisa, e a busca pública não achou nada da empresa fora deles. O diagnóstico de marca abaixo parte do padrão do setor e do que isso indica. Preencha o checklist da seção 1 antes da reunião (leva uns 10 minutos) e ajuste os números.
+> Base: ficha do CNPJ (cnpj.biz), site Webnode, perfil do Instagram (capturas de 24/09/2026) e pesquisa de mercado.
+> **A v1 deste estudo tratava a Legal como fábrica de esquadrias que vende para o consumidor final. Não é.** É uma **distribuidora B2B**, e isso muda cliente, posicionamento e oferta.
 
 ---
 
 ## 0. A tese em uma frase
 
-**A Legal Alumínios não precisa só de um logo. Precisa virar a escolha segura num mercado em que o cliente não sabe diferenciar esquadria boa de ruim e, por isso, compra pelo menor preço.**
-
-O que vamos vender não é "design". É **menos orçamento perdido, ticket maior e parceria com arquiteto**, e a identidade é a ferramenta para isso.
+**Em distribuição de alumínio, o produto é o mesmo em todo lugar. Quem ganha é quem o serralheiro lembra primeiro, acha mais fácil de comprar e em quem confia para entregar hoje.**
+A Legal já tem estrutura, capital e equipe. Falta **marca e processo à altura disso**. É isso que vamos vender.
 
 ---
 
-## 1. Checklist para completar antes da reunião
+## 1. Raio-X da empresa (dados reais)
 
-| Onde | O que anotar | Por que importa |
+| Item | Dado | Leitura estratégica |
 |---|---|---|
-| CNPJ | Data de abertura, porte (MEI/ME/EPP), capital social, CNAE, cidade | Define o tamanho do pacote que ele consegue pagar |
-| Instagram | Seguidores, data do último post, % de fotos de obra vs. artes genéricas, se tem Reels, se tem link na bio | Mede a maturidade digital |
-| Google | Nota, nº de avaliações, se tem fotos, se responde avaliações, categoria | O Google Maps é o principal canal de busca local desse setor |
-| WhatsApp | Tem Business? Catálogo? Mensagem automática? Quanto tempo leva para responder? | É onde a venda realmente acontece |
-| Concorrência | 3 serralherias/vidraçarias da mesma cidade: nota no Google e Instagram | Serve de comparação para mostrar na reunião |
+| Razão social | FLG Comércio de Alumínio e Acessórios LTDA | Nome fantasia: **Legal Alumínios** |
+| Abertura | 24/04/2025 (**1 ano e 5 meses**) | Fase de conquistar carteira. Marca ainda maleável, bom momento para posicionar. |
+| Porte / regime | EPP, Simples Nacional | Já passou da fase MEI e tem faturamento real |
+| **Capital social** | **R$ 1.000.000** | Não é aventura. Tem caixa para investir em marca e processo. **Não precifique como pequeno negócio.** |
+| Sócios | **Alexandre Luiz Legal**, Carlos Roberto Girardi, Marileide Hostins da Silva (os 3 sócios-administradores) | **"Legal" é o sobrenome do sócio.** A marca é um nome de família. (Ver seção 4.) |
+| CNAE principal | 46.89-3-99: atacado de produtos intermediários | Vende para quem transforma: serralheiro, vidraceiro, montador |
+| CNAEs secundários | Vidros, ferragens, materiais de construção, material elétrico, hidráulico, resinas, sucata metálica, imóveis | Deixaram a porta aberta para ampliar o mix. Ambição de "casa do serralheiro". |
+| Endereço | R. Blumenau, 1077, São João, Itajaí/SC | Galpão próprio com fachada e placa |
+| Mix (site/Instagram) | Perfis de 6 m (tubos, cantoneiras, barras chatas, perfil U), acessórios (fechos, fechaduras, puxadores), chapas de policarbonato | Linha de serralheria leve + cobertura |
+| Equipe | ~11 pessoas na foto do Instagram | Tem operação, vendedor e logística |
 
-**Um indício pelo CNPJ:** a raiz 60.5xx.xxx é de uma faixa emitida por volta de 2025. Se isso se confirmar, a empresa tem cerca de 1 a 2 anos. **Empresa nova não tem reputação acumulada. Precisa pegar confiança emprestada** (norma técnica, garantia, portfólio, avaliações). Esse é o eixo do posicionamento.
+### Presença digital hoje
+
+**Instagram (@legalaluminios):** 2.671 seguidores, 813 seguindo, **12 posts em 17 meses**.
+- Destaques: Entregas, Estoque, Feedbacks, Inauguração. **Boa escolha de temas**: são exatamente as provas que um serralheiro quer ver.
+- Série **"TEMOS NA LEGAL:"**: cards de produto com medidas e cores. **O conceito é ótimo** (catálogo + disponibilidade). **A execução é datada**: fundo metálico cromado, faixas vermelhas, tipografia sem hierarquia, tabelas ilegíveis no celular.
+- Fotos de equipe e galpão: humanizam, mas estão sem legenda estratégica e sem ritmo.
+- Link na bio vai direto para o WhatsApp. **Correto.**
+
+**Site (legal-aluminios-1.webnode.page):**
+- Plano gratuito do Webnode, **com a faixa "Este site foi criado com Webnode. Crie um grátis"** no rodapé. Uma empresa com R$ 1 milhão de capital não pode ter isso.
+- Subdomínio com "-1" (o nome sem número já estava ocupado) e **sem domínio próprio**.
+- O Instagram aparece escrito errado: **"@legalalumínios"** com acento, o que quebra o link.
+- Seção de produtos **com imagens que não carregam** (página em branco).
+- A assinatura "Alumínio inteligente para projetos modernos" fala com arquiteto e consumidor final, **não com o serralheiro que compra barra de 6 m**.
+- Texto genérico ("Qualidade Superior", "Atendimento Personalizado") que qualquer concorrente poderia usar.
+- Não tem catálogo, lista de produtos, botão de WhatsApp, mapa nem horário.
+
+**Identidade visual:** vermelho + preto + branco, logo "Legal" em itálico com um grafismo circular. Base aproveitável, com cor forte e memorável. Mas o sistema não existe: cada peça usa um estilo diferente.
 
 ---
 
-## 2. O mercado: o argumento para investir agora
+## 2. O mercado: por que o timing é excelente
 
-- O setor de esquadrias de alumínio faturou **R$ 11,95 bi em 2025, +13,5% sobre 2024**, mais que o dobro do crescimento do consumo de alumínio na construção civil (+5,9%). ([AFEAL](https://afeal.com.br/wp-content/uploads/2025/10/Movimentacoes-Recentes-do-Mercado-Brasileiro-de-Esquadrias-de-Aluminio-Outubro_2025.pdf))
-- O ciclo segue aquecido por **2 a 3 anos** por causa dos lançamentos imobiliários de 2023 a 2025, e o cliente pede cada vez mais **desempenho acústico e térmico**, ou seja, produto de maior valor. ([Revista Alumínio / AFEAL](https://revistaaluminio.com.br/setor-de-esquadrias-de-aluminio-projeta-crescimento-para-2023/))
-- A norma **ABNT NBR 10821** define os requisitos de desempenho de esquadrias. A maioria dos pequenos concorrentes não fala disso, e é uma brecha de posicionamento.
+- **Litoral Norte de SC é o maior canteiro de obras verticais do estado.** Os lançamentos da região somaram **R$ 39,7 bi em 2025** (contra R$ 32,2 bi em 2024). **Itajaí sozinha: R$ 6,3 bi de VGV** (valor geral de vendas). Porto Belo R$ 11,3 bi, Itapema R$ 9,3 bi, Balneário Camboriú R$ 5,1 bi. ([NSC Total](https://www.nsctotal.com.br/colunista/pedro-machado/mercado-imobiliario-do-litoral-de-sc-fatura-mais-mesmo-com-menos-volume))
+- Em maio de 2026, **Itapema passou Balneário Camboriú e tem o m² residencial mais caro do Brasil** (R$ 15.226). É obra de alto padrão, que consome muito alumínio, vidro e policarbonato.
+- No Brasil, as esquadrias de alumínio faturaram **R$ 11,95 bi em 2025, +13,5%** sobre 2024. ([AFEAL](https://afeal.com.br/wp-content/uploads/2025/10/Movimentacoes-Recentes-do-Mercado-Brasileiro-de-Esquadrias-de-Aluminio-Outubro_2025.pdf))
+- **O ponto de atenção:** a FIESC projeta a construção civil de SC crescendo só **1,9% em 2026**. O mercado segue grande, mas o crescimento fácil está acabando. **Daqui para frente, a Legal cresce tirando cliente de concorrente, não esperando a maré.** Esse é o argumento para investir em marca agora. ([FIESC](https://fiesc.com.br/pt-br/imprensa/construcao-civil-de-sc-deve-crescer-19-em-2026-na-projecao-da-fiesc))
 
-**Frase para a reunião:** *"O mercado cresce 13% ao ano. A questão não é se vai ter obra. É quem vai pegar as obras de ticket alto: a empresa que o arquiteto indica ou a que só aparece quando o cliente pede o terceiro orçamento."*
+### Concorrência direta na região (levantamento rápido; valide antes da reunião)
+| Concorrente | Presença |
+|---|---|
+| **Alusupra** | Extrusora com filiais em Itajaí e Balneário Camboriú. Site estruturado. **O concorrente mais perigoso.** |
+| Aleluia Alumínio | Atende Itajaí e BC, site com catálogo por categoria |
+| Perfil Sul Alumínio | Entrega no Vale do Itajaí e na Grande Florianópolis, vende perfil + vidro + kit box |
+| Bogoni Alumínios | Distribuidor de perfis e acessórios com site próprio |
+| Hyspex | Fábrica de perfil em Itajaí |
 
----
-
-## 3. Diagnóstico provável: as 6 dores típicas do setor
-
-Leve como perguntas, não como afirmações. Ele confirma, e a venda se constrói sozinha.
-
-1. **Guerra de preço.** O cliente não entende a diferença entre linhas (Suprema, Gold, linhas de alto padrão), espessura, vidro e vedação, então compara só o valor final.
-2. **Orçamento lento e sem follow-up.** Orçamento sai em dias, vai por PDF ou foto no WhatsApp, e ninguém liga depois. Boa parte dos orçamentos perdidos é por silêncio, não por preço.
-3. **Dependência de indicação.** O mês bom e o mês ruim dependem de sorte, sem canal previsível.
-4. **Instagram de vitrine morta.** Foto de obra sem contexto, sem antes e depois, sem explicar o valor. Não gera pedido.
-5. **Sem relação com arquitetos e construtoras,** que são quem decide as obras de maior ticket.
-6. **Nome "Legal".** É simpático, mas informal e genérico. Sozinho não passa robustez técnica. *(Veja na seção 4 como transformar isso em vantagem sem trocar o nome.)*
+**Leitura:** os concorrentes já têm site e catálogo organizados. **A Legal hoje parece menor do que é.** O serralheiro que pesquisa no Google encontra os outros primeiro.
 
 ---
 
-## 4. Posicionamento: a recomendação
+## 3. Quem é o cliente da Legal (e o que ele quer de verdade)
 
-### Rotas avaliadas
+**Cliente principal:** serralheiro, vidraceiro, montador de esquadria, instalador de cobertura em policarbonato e pequena construtora. Fica em Itajaí, BC, Camboriú, Navegantes, Itapema, Porto Belo e Brusque.
 
-| Rota | Promessa | Veredito |
+**Como ele decide, em ordem de peso:**
+1. **Tem no estoque?** A obra dele não pode parar por falta de perfil.
+2. **Entrega hoje ou amanhã?** Barra de 6 m não cabe no carro dele.
+3. **Preço e prazo de pagamento.** É commodity: a diferença é pequena, mas pesa.
+4. **Atendimento que entende.** Responde rápido no WhatsApp, sabe o código do perfil, sugere alternativa quando falta.
+5. **Relação.** Compra de quem o conhece pelo nome.
+
+**O que isso significa:** ninguém compra barra de alumínio por causa de um logo bonito. **Compra por confiança operacional.** A marca precisa **comunicar e provar** estoque, entrega e atendimento, e os processos precisam **cumprir** isso.
+
+---
+
+## 4. Posicionamento recomendado
+
+### O ativo escondido: "Legal" é um sobrenome
+Alexandre Luiz **Legal** é sócio-administrador. A marca não é um trocadilho, é **um nome de família assinando cada entrega**. No Brasil, isso tem peso: *"é o nome da família que está ali"*. O próprio site já diz *"sempre com honestidade"*. Falta transformar isso em marca.
+
+### A plataforma: **"Tem na Legal."**
+Eles já inventaram, sem perceber, o melhor slogan possível: a série *"TEMOS NA LEGAL"*. Vamos transformá-la na plataforma inteira da marca:
+
+- **Tem estoque:** o perfil que você precisa está aqui hoje.
+- **Tem entrega:** chega na sua obra, no seu prazo.
+- **Tem gente que entende:** atendimento de quem conhece serralheria.
+- **Tem palavra:** é o nome da família no letreiro.
+
+**Assinatura:** *"Legal Alumínios. Tem na Legal."*
+**Frase de apoio:** *"Seu estoque em Itajaí."* O serralheiro não precisa ter estoque próprio, porque a Legal é o estoque dele.
+
+A frase vira hábito no WhatsApp e no balcão: *"Tem na Legal?"* Uma marca que vira pergunta no dia a dia do cliente ganhou o jogo.
+
+### Rotas descartadas
+| Rota | Por que não |
+|---|---|
+| "Alumínio inteligente para projetos modernos" (a atual) | Fala com arquiteto e consumidor, que não são o comprador. Soa como marca de esquadria premium. |
+| Guerra de preço | Em commodity, quem tem mais escala ganha, e a Alusupra, que é extrusora, sempre vai ter mais. |
+| Premium / arquitetura | Cedo demais, e o comprador principal não é o arquiteto. Pode virar uma linha no futuro. |
+
+### Direção visual
+- **Manter o vermelho e o preto** (já é reconhecido na região) e **redesenhar o logo com respeito**: hoje o itálico e o grafismo circular parecem improvisados. Uma evolução, não uma ruptura.
+- **Grafismo proprietário:** o corte transversal dos perfis (U, L, tubo, barra chata) vira ícones e padrões. A ficha técnica vira estética.
+- **Fim do cromado e das faixas metálicas.** Cards de produto limpos: foto em fundo neutro, medida grande, cores em chips, código legível no celular.
+- **Fotografia real:** galpão, estoque, caminhão saindo, equipe. A prova vale mais que o render.
+- Aplicações de maior retorno: **caminhão/van de entrega** (o outdoor que circula por todas as obras da região), fachada, uniforme, etiqueta de embalagem.
+
+---
+
+## 5. Onde a Legal ganha dinheiro: as 5 alavancas
+
+| Alavanca | Hoje (provável) | O que fazer |
 |---|---|---|
-| A. Preço baixo | "O melhor preço da região" | ❌ Descartar. É uma corrida para o fundo e ninguém ganha. |
-| B. Premium arquitetônico | "Grandes vãos, linhas minimalistas" | ⚠️ Cedo demais para empresa nova sem portfólio de alto padrão. É o destino, não o ponto de partida. |
-| **C. Confiança técnica + obra sem dor de cabeça** | "Esquadria dentro da norma, instalada no prazo, com garantia" | ✅ **Recomendada.** |
-
-### O pulo do gato: ressignificar o nome
-
-Não trocar o nome, que custa caro e apaga o pouco reconhecimento que já existe. **Usar o duplo sentido de "Legal":**
-
-- **Legal = dentro da norma.** Esquadria conforme a NBR 10821, com nota, garantia por escrito e instalação correta.
-- **Legal = gente boa de lidar.** Atende rápido, cumpre prazo, deixa a obra limpa.
-
-**Linhas de assinatura para testar:**
-- *"Legal Alumínios. Esquadria do jeito certo."*
-- *"Legal por norma. Legal de lidar."*
-- *"Alumínio dentro da norma. Obra dentro do prazo."*
-
-### Tradução visual (direção de arte)
-
-- **Tipografia** geométrica e firme, que remete ao perfil extrudado. Nada de fonte "divertida".
-- **Paleta** com base grafite ou anodizado e um acento vivo usado com parcimônia, que pode vir da cor atual da marca se houver.
-- **Grafismo** que nasce do corte transversal de um perfil de alumínio. É uma assinatura própria e fácil de aplicar em uniforme, adesivo de van e post.
-- **Fotografia** com padrão fixo de obra (mesmo ângulo, luz do dia, antes e depois). Obra bem fotografada vale mais que qualquer arte.
+| **1. Ser encontrada** | Perde no Google para concorrentes com site | Google Meu Negócio completo, site próprio com catálogo, SEO local ("perfil de alumínio Itajaí") |
+| **2. Facilitar o pedido** | Cliente pergunta preço e estoque item por item no WhatsApp | Catálogo digital por categoria, WhatsApp Business com catálogo e respostas rápidas, pedido estruturado |
+| **3. Recompra** | Ninguém percebe quando um cliente para de comprar | Cadastro + alerta de inatividade (ex.: sem compra há 21 dias → mensagem do vendedor) |
+| **4. Ticket médio** | Vende o perfil e esquece o acessório | Venda cruzada: "quem levou tubo 30×30 também levou…", kits por tipo de obra (portão, cobertura, box) |
+| **5. Fidelidade do serralheiro** | Relação depende do vendedor | Programa **"Parceiro Legal"**: cadastro, benefícios por volume, conteúdo técnico, prioridade de entrega |
 
 ---
 
-## 5. A solução: 3 pacotes (escada de valor)
+## 6. A solução: 3 pacotes
 
-> Preços de referência para pequena empresa no Brasil. **Ajuste pelo porte que o CNPJ mostrar e pela sua cidade.** A lógica de ancoragem vale mais que o número exato.
+> Preços calibrados para uma EPP com R$ 1 mi de capital. Ajuste pela conversa.
 
-### Pacote 1 · FUNDAÇÃO: "Marca que passa confiança" (entrada)
-**R$ 4.500 a 7.500 · 3 a 4 semanas**
-- Diagnóstico de marca e concorrência (3 concorrentes locais)
-- Plataforma de posicionamento: promessa, tom de voz, assinatura
-- Refinamento da identidade visual (sem trocar o nome) + mini manual
-- Kit de aplicações: cartão, assinatura de WhatsApp, adesivo de veículo, uniforme, placa de obra
-- 9 templates de Instagram + bio + destaques reorganizados
-- Otimização completa do perfil no Google (categorias, fotos, serviços, primeiras respostas a avaliações)
+### Pacote 1 · FUNDAÇÃO: "Parecer do tamanho que é"
+**R$ 9.000 a 14.000 · 4 a 5 semanas**
+- Diagnóstico (concorrência, cliente, canais) + plataforma **"Tem na Legal"** (promessa, tom, mensagens)
+- Evolução do logo + sistema visual (cores, tipografia, grafismos de perfil) + manual
+- **Novo template "Tem na Legal"** para cards de produto (substitui o cromado)
+- Aplicações: caminhão/van, fachada, uniforme, cartão, assinatura de WhatsApp, etiqueta
+- Instagram reorganizado (bio, destaques, 12 posts de relançamento)
+- Google Meu Negócio completo (categorias, fotos, produtos, horário)
 
 ### Pacote 2 · MÁQUINA DE VENDAS (âncora: é o que você quer fechar)
-**R$ 9.500 a 15.000 · 6 a 8 semanas · inclui todo o Pacote 1**
-- **Guia de Escolha de Esquadrias** (PDF e página): explica linhas, vidros e norma em linguagem de cliente. Tira o cliente da comparação só por preço.
-- **Proposta comercial padronizada** com a nova marca: 3 opções (Essencial / Recomendada / Superior). Sobe o ticket médio.
-- Landing page com formulário de pré-orçamento (medidas, tipo, foto do vão) enviado direto para o WhatsApp
-- **Automação de follow-up:** mensagens em D+2, D+7 e D+15 após o orçamento, e pedido de avaliação no Google 7 dias após a instalação
-- Funil simples (planilha ou CRM leve) com as etapas lead → visita técnica → orçamento → fechado → instalado
-- **Programa Parceiro Arquiteto:** kit de apresentação, catálogo técnico, fluxo de atendimento prioritário
+**R$ 18.000 a 28.000 · 8 a 10 semanas · inclui todo o Pacote 1**
+- **Site próprio em domínio próprio** (sai o Webnode) com **catálogo navegável** por categoria: perfil, medida, cor, código e botão "pedir no WhatsApp"
+- **WhatsApp Business estruturado:** catálogo, etiquetas por etapa, respostas rápidas, mensagem fora do horário
+- **CRM leve de clientes** (planilha inteligente ou ferramenta simples): cadastro, última compra, frequência, **alerta automático de inatividade**
+- **Disparo semanal "Chegou na Legal"** (lista de transmissão: reposição, novidades, ofertas de giro)
+- **Kits de venda cruzada** (portão, cobertura de policarbonato, box) com cards próprios
+- Estrutura do **Programa Parceiro Legal** (regras, benefícios, peças de divulgação)
 
-### Pacote 3 · CRESCIMENTO (recorrente, após o 1 ou o 2)
-**R$ 1.800 a 3.500/mês + verba de mídia · mínimo de 6 meses**
-- 8 a 12 posts por mês, com prioridade para Reels de obra (antes e depois, bastidor de fábrica, "erro comum em janela")
-- Gestão de tráfego local (Google Ads para buscas como "esquadria de alumínio em [cidade]" + Meta)
-- Relatório mensal: leads, orçamentos, fechamentos, custo por obra
+### Pacote 3 · CRESCIMENTO (recorrente)
+**R$ 3.000 a 5.500/mês + verba de mídia · mínimo de 6 meses**
+- 12 a 16 posts por mês: Reels de bastidor (caminhão saindo, estoque cheio, "chegou"), dicas técnicas para serralheiro, obras de clientes
+- Tráfego pago local: Google ("distribuidora de alumínio Itajaí") + Meta com segmentação por profissão e região
+- Gestão do disparo semanal e do Parceiro Legal
+- Relatório mensal: clientes ativos, reativados, pedidos pelo WhatsApp e site, ticket médio
 
-**Tática de fechamento:** apresente os três e recomende o 2. O 3 faz o 2 parecer razoável, e o 1 é a saída que evita o "vou pensar".
+**Tática:** apresente os três e recomende o 2. O 1 resolve a vergonha (site Webnode, visual datado). O 2 resolve o dinheiro (recompra e ticket).
 
 ---
 
-## 6. O argumento de ROI
+## 7. O argumento de ROI
 
-Colete dois números na reunião: **ticket médio de uma obra** e **quantos orçamentos ele faz por mês**.
+Em distribuição, **o lucro está na carteira que volta a comprar.** Colete na reunião: **nº de clientes ativos por mês, ticket médio por pedido, frequência de compra.**
 
 **Conta de exemplo (substitua pelos números reais):**
-- 20 orçamentos por mês, fechando 20%: 4 obras
-- Ticket médio de R$ 18.000: R$ 72.000 por mês
-- Follow-up automático + proposta em 3 opções levando o fechamento para 25% e o ticket para R$ 20.000: 5 obras × R$ 20.000 = **R$ 100.000 por mês**
-- **+R$ 28.000 por mês de faturamento.** O Pacote 2 se paga com **menos de 1 obra extra**.
+- 150 clientes ativos × 3 pedidos/mês × R$ 1.200 = **R$ 540 mil/mês**
+- Venda cruzada com kits, +8% no ticket: **+R$ 43 mil/mês**
+- Alerta de inatividade reativando 10 clientes por mês: **+R$ 36 mil/mês**
+- **~R$ 80 mil/mês a mais de faturamento.** Com margem bruta de distribuição (confirme com eles, costuma ficar entre 15% e 25%), **o Pacote 2 se paga em 1 a 2 meses.**
 
-**Frase:** *"Não estou te vendendo um logo. Estou te vendendo uma obra a mais por mês. O resto é consequência."*
+**Frase:** *"Vocês não precisam de mais seguidores. Precisam que o serralheiro que já comprou uma vez nunca mais compre em outro lugar."*
 
 ---
 
-## 7. Roteiro da reunião (45 min)
+## 8. Roteiro da reunião (45 a 60 min)
 
-**1. Abrir (5 min):** "Antes de mostrar qualquer coisa, quero entender o seu negócio. Posso fazer umas perguntas?"
+Provavelmente mais de um sócio vai estar na mesa. **Descubra quem decide** (Alexandre, pelo sobrenome no nome, tende a ser o guardião da marca) e **quem opera** (o comercial vai usar o CRM).
+
+**1. Abrir (5 min):** elogio verdadeiro e específico: *"Em 17 meses vocês montaram galpão, equipe e estoque, e a série 'Temos na Legal' tem uma sacada que a maioria das marcas nunca acha."* Isso gera confiança antes da crítica.
 
 **2. Diagnóstico (15 min), perguntas-chave:**
-- De onde vêm seus clientes hoje? Qual a porcentagem por indicação?
-- Quantos orçamentos você faz por mês? Quantos fecham?
-- Quanto tempo leva do pedido até o orçamento chegar ao cliente?
-- Quando o cliente some depois do orçamento, alguém vai atrás?
-- Qual foi o último orçamento que você perdeu por preço? Para quem?
-- Você trabalha com arquitetos? Quantos te indicam com frequência?
-- **Sua fábrica aguenta mais quantas obras por mês?** *(crucial, veja a nota abaixo)*
-- Se daqui a 12 meses tudo tiver dado certo, como está a empresa?
+- Quem é o cliente que mais compra de vocês? Serralheiro, vidraceiro, construtora?
+- Quantos clientes ativos por mês? Quantos compraram uma vez e sumiram?
+- Como chega um pedido hoje? (WhatsApp, telefone, balcão.) Quanto tempo leva para responder?
+- Vocês entregam em que cidades? Em quanto tempo?
+- Quando perdem uma venda, é por preço, falta de estoque ou demora?
+- Quem vocês mais encontram como concorrente? (Espere: Alusupra.)
+- Qual o plano para os próximos 2 anos? Nova unidade, mais linhas (vidro, ferragem)?
+- Se um serralheiro de Itapema procurar "perfil de alumínio" no Google hoje, ele acha vocês?
 
-**3. Espelhar (5 min):** repita as 2 ou 3 dores que ele disse, com as palavras dele.
+**3. Mostrar a verdade (10 min).** Leve prints:
+- A faixa "Crie um site grátis no Webnode" no rodapé
+- O "@legalalumínios" com acento no site
+- A página de produtos em branco
+- Uma busca no Google mostrando os concorrentes antes da Legal
 
-**4. Mostrar (10 min):** o mercado (seção 2), as rotas de posicionamento (seção 4) e os pacotes (seção 5).
+Diga sem drama: *"Hoje, digitalmente, vocês parecem uma empresa menor do que são."*
 
-**5. Fechar (10 min):** conta de ROI com os números dele, recomendação do Pacote 2, proposta formal em até 48h com validade de 7 dias.
+**4. Apresentar "Tem na Legal" (10 min):** a plataforma + um **mockup do caminhão** e **um card de produto redesenhado** lado a lado com o atual.
 
-> ⚠️ **Nota de honestidade estratégica:** se a fábrica estiver no limite da capacidade, **não venda geração de demanda.** Venda **margem**: proposta em 3 opções, guia de escolha e posicionamento para cobrar mais pelo mesmo volume. Mais lead com produção travada vira atraso, e atraso destrói a marca que você acabou de construir.
+**5. Fechar (10 min):** conta de ROI com os números deles, recomendação do Pacote 2, proposta formal em 48h.
 
 ---
 
-## 8. Objeções e respostas
+## 9. Objeções e respostas
 
 | Objeção | Resposta |
 |---|---|
-| "Tá caro." | "Comparado com o quê? Uma obra perdida por mês custa R$ X. O pacote se paga com uma." (Se insistir, ofereça o Pacote 1 e depois evolua.) |
-| "Meu cliente vem por indicação, não preciso disso." | "Indicação é ótimo, mas você não controla. Quando indicarem você, o cliente vai olhar seu Instagram e seu Google antes de ligar. O que ele encontra hoje?" |
-| "Já tenho logo." | "A gente não vai jogar fora. Vamos fazer ele trabalhar: na proposta, na van, na obra e no Google." |
-| "Vou pensar." | "Claro. O que precisaria ser verdade para você fechar hoje?" (Isola a objeção real.) |
-| "Sobrinho faz meu Instagram." | "Ótimo, ele continua postando. A gente entrega a estratégia, os templates e o guia para ele seguir, e o que ele posta passa a vender." |
+| "Nosso cliente é serralheiro, ele não liga para marca." | "Concordo, ele não liga para logo. Liga para achar rápido, pedir fácil e receber no prazo. Marca é o que faz ele lembrar de vocês antes da Alusupra." |
+| "A gente vende pelo WhatsApp, não precisa de site." | "O site não substitui o WhatsApp, leva gente para ele. E é a primeira coisa que construtora e cliente novo checam antes de abrir cadastro." |
+| "Tá caro." | "Um cliente reativado por semana já paga o projeto. Quanto vale um serralheiro ativo para vocês por ano?" |
+| "Vamos fazer por partes." | Ótimo: feche o Pacote 1 agora, com o 2 já precificado e a data de início definida. |
+| "O sobrinho/funcionário cuida do Instagram." | "Perfeito, ele continua. A gente entrega o sistema (templates, calendário, roteiro) para o que ele posta passar a vender." |
 
 ---
 
-## 9. Próximos passos para a 3desenhos
+## 10. Checklist antes da reunião
 
-1. Preencher o checklist da seção 1 e ajustar preços ao porte.
-2. Levar impresso ou no tablet: 1 página de mercado + 1 de rotas + 1 de pacotes. Nada de apresentação de 30 slides.
-3. **Levar um "mockup-isca":** a van ou a placa de obra da Legal Alumínios com uma assinatura da seção 4. Cliente de obra compra o que consegue ver.
-4. Enviar a proposta formal em até 48h.
+- [ ] Imprimir ou levar no tablet: raio-X (seção 1), mercado (seção 2), "Tem na Legal" (seção 4), pacotes (seção 6)
+- [ ] **Mockup 1:** caminhão/van com "Tem na Legal."
+- [ ] **Mockup 2:** card de produto "Temos na Legal: Cantoneira" redesenhado, lado a lado com o atual
+- [ ] Prints do site Webnode (faixa, @ errado, página em branco)
+- [ ] Buscar no Google "perfil de alumínio Itajaí" e "distribuidora de alumínio Balneário Camboriú" e printar quem aparece
+- [ ] Ver a nota e as avaliações da Legal no Google Maps e dos 2 principais concorrentes
 
 ---
 
 ### Fontes
-- [AFEAL: Movimentações Recentes do Mercado Brasileiro de Esquadrias de Alumínio (out/2025)](https://afeal.com.br/wp-content/uploads/2025/10/Movimentacoes-Recentes-do-Mercado-Brasileiro-de-Esquadrias-de-Aluminio-Outubro_2025.pdf)
-- [AFEAL: Panorama do mercado de esquadrias de alumínio](https://afeal.com.br/afeal-news/panorama-do-mercado-de-esquadrias-de-aluminio/)
-- [Revista Alumínio: setor de esquadrias projeta crescimento](https://revistaaluminio.com.br/setor-de-esquadrias-de-aluminio-projeta-crescimento-para-2023/)
-- [Contramarco: gestão da serralheria, como conquistar novos clientes](https://www.contramarco.com/post/gest%C3%A3o-da-serralheria-como-conquistar-novos-clientes)
+- Ficha do CNPJ 60.531.785/0001-50 (cnpj.biz, 24/09/2026), site legal-aluminios-1.webnode.page e Instagram @legalaluminios: capturas enviadas pelo cliente
+- [NSC Total: mercado imobiliário do Litoral de SC](https://www.nsctotal.com.br/colunista/pedro-machado/mercado-imobiliario-do-litoral-de-sc-fatura-mais-mesmo-com-menos-volume)
+- [DMA Notícias: boom de BC impulsiona o litoral norte](https://dmanoticias.com.br/boom-imobiliario-de-balneario-camboriu-impulsiona-todo-o-litoral-norte-de-sc/)
+- [FIESC: construção civil de SC deve crescer 1,9% em 2026](https://fiesc.com.br/pt-br/imprensa/construcao-civil-de-sc-deve-crescer-19-em-2026-na-projecao-da-fiesc)
+- [AFEAL: Mercado Brasileiro de Esquadrias de Alumínio (out/2025)](https://afeal.com.br/wp-content/uploads/2025/10/Movimentacoes-Recentes-do-Mercado-Brasileiro-de-Esquadrias-de-Aluminio-Outubro_2025.pdf)
+- Concorrentes: [Alusupra](https://www.alusupra.com.br/distribuidora-perfis-aluminio), [Aleluia Alumínio](https://www.aleluiaaluminio.com.br/barras-perfis-aluminio), [Perfil Sul](https://www.perfilsulaluminio.com.br/a-empresa), [Bogoni](https://www.bogonialuminios.com.br/), [Hyspex](https://hyspex.com.br/fabrica-de-perfil-de-aluminio-em-itajai/)
