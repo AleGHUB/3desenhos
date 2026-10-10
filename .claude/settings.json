@@ -4,7 +4,19 @@
       "Bash(.claude/skills/impeccable/scripts/impeccable:*)",
       "Bash(bash .claude/skills/product-ad-cinema/scripts/:*)",
       "Bash(higgsfield account status)",
-      "Bash(ffprobe:*)"
+      "Bash(ffprobe:*)",
+      "Bash(photocraft-cli:*)",
+      "Bash(designcraft-cli:*)",
+      "Bash(vectorcraft-cli:*)",
+      "Bash(pdfcraft-cli:*)",
+      "Bash(lightcraft-cli:*)",
+      "Bash(filmcraft-cli:*)",
+      "Bash(effectcraft-cli:*)",
+      "Bash(gridcraft-cli:*)",
+      "Bash(wordcraft-cli:*)",
+      "Bash(deckcraft-cli:*)",
+      "Bash(cadcraft-cli:*)",
+      "Bash(soundcraft-cli:*)"
     ]
   }
 }
