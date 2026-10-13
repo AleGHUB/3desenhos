@@ -25,6 +25,7 @@ Estúdio de design, branding, web e automação. Este repositório concentra o k
 | Feature ou correção guiada por testes | `tdd` | mattpocock/skills |
 | Pesquisa em fontes primárias salva em Markdown | `research` | mattpocock/skills |
 | Passar o contexto para outra sessão/agente (só via `/handoff`) | `handoff` | mattpocock/skills |
+| Engenharia reversa: entender como uma feature de app/site/binário funciona (Electron/JS, .NET, nativo, APK, captura de rede) para recriar no nosso produto | `reverse-engineer-anything` | morluto/rea (MIT) |
 
 ### Agents (`.claude/agents/`)
 
@@ -59,4 +60,5 @@ Para estas tarefas, use a ferramenta nativa do Claude Code, não crie agent/skil
 
 - `impeccable`: o launcher baixa o próprio binário na primeira execução (`.claude/skills/impeccable/scripts/impeccable context`).
 - `product-ad-cinema` e `/banco-imagens`: Higgsfield CLI logada (`higgsfield auth login`), `ffmpeg` e `jq`.
+- `reverse-engineer-anything`: usa o MCP `rea` registrado em `.mcp.json` (`npx -y rea-agents@6.4.0 mcp`, Node 22.19+). Análise nativa exige Ghidra, IDA ou Hopper instalados; JS/Electron e sites funcionam sem eles.
 - `reel-roteiro`: WebSearch/WebFetch; para Instagram, um browser (Playwright/Claude in Chrome) funciona melhor.
