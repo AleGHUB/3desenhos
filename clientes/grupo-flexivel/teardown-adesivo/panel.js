@@ -60,7 +60,8 @@ export const LIFT = 0.75;
 export function processAt(s) {
   s = Math.min(S, Math.max(0, s));
   const k1 = clamp01(s / 5); // passe longitudinal do aplicador (linear: movimento contínuo)
-  const cross = CROSS_Z.map((_, i) => clamp01((s - 5 - i * 0.32) / 0.4)); // transversais, uma a uma
+  const k2 = clamp01((s - 5) / 2.3); // passe transversal: a mesma barra, girada, cruza a largura
+  const cross = CROSS_Z.map(() => k2);
   const lift = LIFT * (1 - ease((s - 7.5) / 2.5));
   const press = ease((s - 10) / 2.2);
   const weights = ease((s - 9.9) / 1.2) * (1 - ease((s - 17.2) / 1.2));
@@ -71,7 +72,7 @@ export function processAt(s) {
   const mist = ease((s - 11.8) / 1.0) * (1 - ease((s - 18.2) / 0.8));
   const step = STEPS.findIndex((x) => s < x.to) === -1 ? 3 : STEPS.findIndex((x) => s < x.to);
   const cords = LONG_X.length * (k1 >= 1 ? 1 : 0) + cross.filter((c) => c >= 1).length;
-  return {s, k1, cross, lift, press, weights, cure, mist, xray, sheetIn, step, cords, contact: lift < 0.002};
+  return {s, k1, k2, cross, lift, press, weights, cure, mist, xray, sheetIn, step, cords, contact: lift < 0.002};
 }
 
 // ------------------------------------------------------------ materiais
@@ -194,6 +195,28 @@ export function buildPanel() {
     return th;
   });
 
+  // a mesma barra, girada 90°, para o passe transversal (bicos nas posições dos cordões transversais)
+  const tool2 = new THREE.Group();
+  const bar2 = new THREE.Mesh(new THREE.BoxGeometry(0.05, 0.03, P.L + 0.08), toolMat);
+  bar2.castShadow = true;
+  tool2.add(bar2);
+  const threads2 = CROSS_Z.map((z) => {
+    const n = new THREE.Mesh(new THREE.ConeGeometry(0.009, 0.02, 10), toolMat);
+    n.rotation.x = Math.PI;
+    n.position.set(0, -0.024, z);
+    tool2.add(n);
+    const th = new THREE.Mesh(new THREE.CylinderGeometry(0.0022, 0.0022, 1, 8), glueTop);
+    tool2.add(th);
+    return th;
+  });
+
+  // adesivo como camada contínua (vista explodida depois da prensagem e da cura)
+  const planeTopMat = new THREE.MeshStandardMaterial({color: '#c99a45', roughness: 0.5, metalness: 0, transparent: true, opacity: 0, side: THREE.DoubleSide});
+  const planeBotMat = planeTopMat.clone();
+  const planeTop = new THREE.Mesh(sheetGeo(0.003), planeTopMat);
+  const planeBot = new THREE.Mesh(new THREE.BoxGeometry(P.W, P.gapB, P.L), planeBotMat);
+  planeTop.receiveShadow = planeBot.receiveShadow = true;
+
   // pesos de prensagem
   const weights = [-0.42, 0.42].map((z) => {
     const m = shadowy(new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.07, 0.26), weightMat));
@@ -202,7 +225,7 @@ export function buildPanel() {
     return m;
   });
 
-  root.add(liner, gB, core, gT, top, tool);
+  root.add(liner, gB, core, gT, top, tool, tool2, planeTop, planeBot);
   const crestTop = (x) => prof(x);
 
   // st: {proc, explode 0..1, isolate 0..1}
@@ -238,7 +261,7 @@ export function buildPanel() {
       w.visible = p.weights > 0.01;
     }
     // aplicador: corre ao longo do comprimento durante o passe longitudinal
-    tool.visible = p.s < 5.4;
+    tool.visible = p.s < 5.0;
     const tz = -P.L / 2 + 0.02 + (P.L - 0.04) * p.k1;
     const ty = coreTop + 0.16 + 0.075 * e;
     tool.position.set(0, ty, tz);
@@ -249,6 +272,25 @@ export function buildPanel() {
       th.position.set(LONG_X[i], -0.034 - len / 2, 0);
       th.visible = p.k1 < 0.999;
     }
+    tool2.visible = p.s >= 5 && p.k2 < 0.999;
+    const tx = -P.W / 2 + 0.02 + (P.W - 0.04) * p.k2;
+    tool2.position.set(tx, ty, 0);
+    for (const [i, th] of threads2.entries()) {
+      const yb = coreTop + 0.075 * e + prof(tx) + P.beadR;
+      const len = Math.max(0.001, ty - 0.034 - yb);
+      th.scale.y = len;
+      th.position.set(0, -0.034 - len / 2, CROSS_Z[i]);
+    }
+    // camada contínua: os cordões dão lugar a um plano homogêneo entre as camadas
+    const pl = st.plane ?? 0;
+    planeTopMat.opacity = pl;
+    planeBotMat.opacity = pl;
+    planeTopMat.depthWrite = planeBotMat.depthWrite = pl > 0.5;
+    planeTop.visible = planeBot.visible = pl > 0.01;
+    planeTop.position.y = gT.position.y;
+    planeBot.position.y = gB.position.y + P.gapB / 2;
+    gT.visible = pl < 0.6;
+    gB.visible = pl < 0.6;
     // cura: a frente avança ao longo do comprimento
     glueTop.userData.front.value = -P.L / 2 - 0.25 + p.cure * (P.L + 0.5);
     // isolar o adesivo: o resto fica translúcido

@@ -79,7 +79,7 @@ const viewFilm = (t) => VIEWS_T.filter(([a]) => a <= t).pop()[1];
 // ------------------------------------------------------------ rótulos com linhas
 const PARTS = [
   {key: 'telha', name: 'Telha em aço', sub: 'chapa trapezoidal externa'},
-  {key: 'adesivo', name: 'Adesivo Monocomponente', sub: 'cordões em grade sobre o núcleo', glue: true},
+  {key: 'adesivo', name: 'Adesivo Monocomponente', sub: 'une a chapa ao núcleo isolante', glue: true},
   {key: 'nucleo', name: 'Núcleo isolante', sub: 'EPS · PIR · PUR'},
   {key: 'inferior', name: 'Adesivo curado', sub: 'une o núcleo ao forro', glue: true},
   {key: 'forro', name: 'Forro metálico', sub: 'face interna'},
@@ -282,7 +282,8 @@ runSim(DEFAULTS, async ({canvas, capture}) => {
 
   // ---------------- um quadro
   const draw = (t, s) => {
-    st.frame({proc: s.proc, explode: s.explode, isolate: s.isolate, t}, {...s.cam, az: s.cam.az * D2R, el: s.cam.el * D2R});
+    const plane = (s.proc.cure >= 1 ? 1 : 0) * smoother((s.explode - 0.55) / 0.45);
+    st.frame({proc: s.proc, explode: s.explode, isolate: s.isolate, plane, t}, {...s.cam, az: s.cam.az * D2R, el: s.cam.el * D2R});
     ui.update({
       proc: s.proc,
       on: s.on,
