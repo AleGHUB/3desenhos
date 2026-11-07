@@ -45,12 +45,13 @@ const CSS = `
 .seg span{position:absolute;left:10px;top:9px;font:600 13px 'Titillium Web',sans-serif;color:${C.pet};white-space:nowrap}
 .seg.on span{color:${C.pet}}
 .seg.on{box-shadow:inset 0 0 0 1.5px ${C.pet}}
-.call{position:absolute;white-space:nowrap}
-.call b{display:flex;align-items:center;gap:8px;font:700 15px 'Titillium Web',sans-serif;color:${C.pet}}
-.call b i{display:block;width:8px;height:8px;border-radius:2px;background:${C.pet}}
-.call.g b{color:${C.ambD}}
+.call{position:absolute;white-space:nowrap;width:232px;padding:7px 11px 8px;border-radius:7px;background:rgba(1,61,61,.82);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);box-shadow:0 6px 16px rgba(1,45,44,.18)}
+.call b{display:flex;align-items:center;gap:8px;font:700 15px/1.15 'Titillium Web',sans-serif;color:${C.mar}}
+.call b i{display:block;flex:none;width:9px;height:9px;border-radius:2px;background:${C.ino}}
+.call.g{box-shadow:inset 3px 0 0 ${C.amb},0 6px 16px rgba(1,45,44,.22)}
+.call.g b{color:#f4d58c}
 .call.g b i{background:${C.amb}}
-.call span{display:block;font-size:12px;color:${C.gra};opacity:.8;margin-top:1px;padding-left:16px}
+.call span{display:block;font-size:12px;line-height:1.3;color:rgba(255,255,228,.78);margin-top:2px;padding-left:17px;overflow:hidden;text-overflow:ellipsis}
 .cta{position:absolute;left:470px;top:676px;width:660px;height:118px;background:${C.pet};color:${C.mar};border-radius:12px;padding:22px 28px;box-shadow:0 14px 40px rgba(1,45,44,.25)}
 .cta b{display:block;font:900 32px/1 'Titillium Web',sans-serif;color:${C.ino}}
 .cta span{display:block;margin-top:12px;font-size:16px}
@@ -166,9 +167,9 @@ export function createConsole(app) {
       const [ax, ay] = c.at;
       const [lx, ly] = c.label;
       const left = lx < ax;
-      const ex = left ? lx + c.w : lx - 6;
+      const ex = left ? lx + c.w : lx;
       svg += `<path d="M${ax} ${ay} L${ex} ${ly}" stroke="${c.glue ? C.amb : C.pet}" stroke-width="1.4" fill="none" opacity="${c.o}"/><circle cx="${ax}" cy="${ay}" r="3.5" fill="${c.glue ? C.amb : C.pet}" opacity="${c.o}"/>`;
-      const n = el(`<div class="call${c.glue ? ' g' : ''}" style="left:${lx}px;top:${ly - 11}px;opacity:${c.o}"><b><i></i>${c.name}</b><span>${c.sub}</span></div>`);
+      const n = el(`<div class="call${c.glue ? ' g' : ''}" style="left:${lx}px;top:${ly - 23}px;opacity:${c.o}"><b><i></i>${c.name}</b><span>${c.sub}</span></div>`);
       callLayer.appendChild(n);
     }
     lines.innerHTML = svg;

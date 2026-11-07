@@ -79,7 +79,7 @@ const viewFilm = (t) => VIEWS_T.filter(([a]) => a <= t).pop()[1];
 // ------------------------------------------------------------ rótulos com linhas
 const PARTS = [
   {key: 'telha', name: 'Telha em aço', sub: 'chapa trapezoidal externa'},
-  {key: 'adesivo', name: 'Adesivo Monocomponente', sub: 'cordões em grade, cura com a umidade', glue: true},
+  {key: 'adesivo', name: 'Adesivo Monocomponente', sub: 'cordões em grade sobre o núcleo', glue: true},
   {key: 'nucleo', name: 'Núcleo isolante', sub: 'EPS · PIR · PUR'},
   {key: 'inferior', name: 'Adesivo curado', sub: 'une o núcleo ao forro', glue: true},
   {key: 'forro', name: 'Forro metálico', sub: 'face interna'},
@@ -90,18 +90,17 @@ function makeLabels(st) {
     const A = st.panel.anchors();
     const pts = PARTS.filter((p) => p.key !== 'telha' || proc.sheetIn > 0.5).map((p) => ({p, at: st.project(...A[p.key])})).filter((x) => x.at);
     const out = [];
-    const colR = pts.filter((x) => x.at[0] >= 800).sort((a, b) => a.at[1] - b.at[1]);
-    const colL = pts.filter((x) => x.at[0] < 800).sort((a, b) => a.at[1] - b.at[1]);
+    // uma coluna, na ordem física das camadas (de cima para baixo), para as linhas não se cruzarem
+    const colL = pts;
     const stack = (col, x, w) => {
       let y = 250;
       for (const c of col) {
         y = Math.max(y, Math.min(740, c.at[1]));
         out.push({name: c.p.name, sub: c.p.sub, glue: !!c.p.glue, at: c.at, label: [x, y], w, o: o * (extra.iso && !c.p.glue ? 0.35 : 1)});
-        y += 50;
+        y += 56;
       }
     };
-    stack(colL, 372, 210);
-    stack(colR, 1030, 210);
+    stack(colL, 364, 232);
     return out;
   };
 }

@@ -263,11 +263,11 @@ export function buildPanel() {
   const anchors = (st) => {
     const ry = root.position.y;
     return {
-      telha: [0.375, top.position.y + ry + P.ribH + P.sheet, 0.55],
-      adesivo: [0.25, gT.position.y + ry + P.beadR, 0.3],
-      nucleo: [-P.W / 2, core.position.y + ry + P.core * 0.6, 0.45],
-      inferior: [-0.25, gB.position.y + ry, P.L / 2],
-      forro: [-0.1, liner.position.y + ry, P.L / 2],
+      telha: [P.W / 2, top.position.y + ry + P.sheet, 0.42],
+      adesivo: [0.47, gT.position.y + ry + P.beadR, 0.3],
+      nucleo: [P.W / 2, core.position.y + ry + P.core * 0.5, 0.18],
+      inferior: [P.W / 2 - 0.03, gB.position.y + ry + P.gapB, 0.06],
+      forro: [P.W / 2, liner.position.y + ry, -0.06],
       pesos: [0.17, weights[1].position.y + ry + 0.035, 0.42],
       aplicador: [0.5, tool.position.y + ry, tool.position.z],
     };
