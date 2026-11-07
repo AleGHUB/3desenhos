@@ -317,7 +317,7 @@ runSim(DEFAULTS, async ({canvas, capture}) => {
       cam: camFilm(t),
       playing: true,
       cursor: cursorAt(t),
-      cta: ss(30.2, 31.0, t),
+      cta: 1, // barra de contato sempre visível
     };
   };
 
@@ -344,7 +344,7 @@ runSim(DEFAULTS, async ({canvas, capture}) => {
         cam: camLive(tn),
         playing: live.playing && live.s < S,
         cursor: null,
-        cta: 0,
+        cta: 1,
         manual: true,
       });
       return {};
