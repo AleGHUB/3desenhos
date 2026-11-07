@@ -53,7 +53,7 @@ html body #app,html body #app .ui{font-family:'IBM Plex Sans','Segoe UI',system-
 .call.g b{color:#f4d58c}
 .call.g b i{background:${C.amb}}
 .call span{display:block;font-size:12px;line-height:1.3;color:rgba(255,255,228,.78);margin-top:2px;padding-left:17px;overflow:hidden;text-overflow:ellipsis}
-.cta{position:absolute;left:1252px;top:692px;width:304px;min-height:116px;background:${C.pet};color:${C.mar};border-radius:10px;padding:16px 18px;box-shadow:0 10px 30px rgba(1,45,44,.22)}
+.cta{position:absolute;left:44px;top:594px;width:304px;min-height:116px;background:${C.pet};color:${C.mar};border-radius:10px;padding:16px 18px;box-shadow:0 10px 30px rgba(1,45,44,.22)}
 .cta b{display:block;font:900 21px/1.05 'Titillium Web',sans-serif;color:${C.ino}}
 .cta span{display:block;margin-top:9px;font-size:12.5px;line-height:1.4;white-space:normal}
 .cur{position:absolute;left:0;top:0;z-index:50;filter:drop-shadow(0 1px 2px rgba(0,0,0,.35))}
@@ -93,7 +93,7 @@ export function createConsole(app) {
   const stepEls = STEPS.map((st, i) => add(`<div class="st" style="left:62px;top:${280 + i * 74}px;width:276px"><div class="n">${st.n}</div><div><b>${st.name}</b><span>${st.sub}</span></div></div>`));
 
   // ------------------------------------------------------------ leitura do processo + propriedades
-  add(`<div class="card read" style="left:1252px;top:226px;width:304px;height:456px"></div>`);
+  add(`<div class="card read" style="left:1252px;top:226px;width:304px;height:470px"></div>`);
   add(`<div class="eb" style="position:absolute;left:1270px;top:246px;color:${C.inoD};font-size:11px">Leitura do processo</div>`);
   const meter = (y, label, color) => {
     const n = add(`<div class="mt" style="left:1270px;top:${y}px;width:268px"><div class="k"><span>${label}</span><em></em></div><div class="bar"><i style="background:${color}"></i></div></div>`);
