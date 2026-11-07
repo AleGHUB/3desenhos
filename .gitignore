@@ -14,3 +14,5 @@ teardown-out/
 
 # Dependências dos projetos de cliente
 clientes/**/node_modules/
+__pycache__/
+*.pyc
