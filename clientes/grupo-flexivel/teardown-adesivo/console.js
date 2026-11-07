@@ -11,7 +11,8 @@ export const DISPLAY = ['exploded', 'isolate', 'labels'];
 export const DISPLAY_LABEL = {exploded: 'Explodir', isolate: 'Isolar adesivo', labels: 'Rótulos'};
 
 const CSS = `
-#app{font-family:'IBM Plex Sans',system-ui,sans-serif;color:${C.gra};-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+html body #app,html body #app .ui{font-family:'IBM Plex Sans','Segoe UI',system-ui,-apple-system,sans-serif!important}
+#app{color:${C.gra};-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
 .ui{position:absolute;inset:0;pointer-events:none}
 .ui *{box-sizing:border-box}
 .ttl{font-family:'Titillium Web',system-ui,sans-serif}
@@ -52,7 +53,7 @@ const CSS = `
 .call.g b{color:#f4d58c}
 .call.g b i{background:${C.amb}}
 .call span{display:block;font-size:12px;line-height:1.3;color:rgba(255,255,228,.78);margin-top:2px;padding-left:17px;overflow:hidden;text-overflow:ellipsis}
-.cta{position:absolute;left:1252px;top:692px;width:304px;height:116px;background:${C.pet};color:${C.mar};border-radius:10px;padding:16px 18px;box-shadow:0 10px 30px rgba(1,45,44,.22)}
+.cta{position:absolute;left:1252px;top:692px;width:304px;min-height:116px;background:${C.pet};color:${C.mar};border-radius:10px;padding:16px 18px;box-shadow:0 10px 30px rgba(1,45,44,.22)}
 .cta b{display:block;font:900 21px/1.05 'Titillium Web',sans-serif;color:${C.ino}}
 .cta span{display:block;margin-top:9px;font-size:12.5px;line-height:1.4;white-space:normal}
 .cur{position:absolute;left:0;top:0;z-index:50;filter:drop-shadow(0 1px 2px rgba(0,0,0,.35))}
