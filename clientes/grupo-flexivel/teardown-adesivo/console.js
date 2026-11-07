@@ -81,7 +81,7 @@ export function createConsole(app) {
 
   // ------------------------------------------------------------ cabeçalho
   add(`<div style="position:absolute;left:44px;top:38px;width:150px;color:${C.pet}">${LOGO}</div>`);
-  add(`<div class="eb" style="position:absolute;left:46px;top:100px;color:${C.inoD}">Teardown · telha termoacústica</div>`);
+  add(`<div class="eb" style="position:absolute;left:46px;top:100px;color:${C.inoD}">Telha termoacústica · camadas e processo</div>`);
   add(`<div class="ttl" style="position:absolute;left:44px;top:116px;font-size:46px;font-weight:900;line-height:1;color:${C.pet};letter-spacing:-.01em;white-space:nowrap">Adesivo Monocomponente</div>`);
   add(`<div style="position:absolute;left:46px;top:172px;font-size:15.5px;color:${C.gra}">Um componente. Cura com a umidade do ar. Para PIR, PUR e EPS.</div>`);
 
