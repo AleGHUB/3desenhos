@@ -136,6 +136,7 @@ export function createConsole(app) {
   const ring = add(`<div class="ring"></div>`);
   const cur = add(`<svg class="cur" width="22" height="28" viewBox="0 0 22 28"><path d="M2 2v20l5.5-5 3.6 8.2 3.4-1.5-3.5-8H18z" fill="${C.pet}" stroke="${C.mar}" stroke-width="1.6" stroke-linejoin="round"/></svg>`);
   add(`<div style="position:absolute;right:44px;top:44px;font-size:12.5px;color:${C.gra};opacity:.75;text-align:right;line-height:1.5">Flexível · soluções e sistemas em poliuretano<br>Vista esquemática, fora de escala</div>`);
+  add(`<div style="position:absolute;left:0;right:0;top:872px;text-align:center;font-size:11px;letter-spacing:.08em;color:${C.gra};opacity:.5">3Desenhos - PROTÓTIPO - 2026</div>`);
 
   const update = (s) => {
     const p = s.proc;
