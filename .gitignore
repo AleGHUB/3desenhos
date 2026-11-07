@@ -11,3 +11,6 @@ input/
 # Builds e renders da skill teardown
 teardown-out/
 .claude/skills/teardown/node_modules/
+
+# Dependências dos projetos de cliente
+clientes/**/node_modules/

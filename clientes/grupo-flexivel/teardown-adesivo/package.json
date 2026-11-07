@@ -1,0 +1,9 @@
+{
+  "name": "flexivel-teardown-adesivo",
+  "private": true,
+  "description": "Teardown 3D do painel termoacústico com o Adesivo Monocomponente Flexível (skill teardown).",
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "5.2.5",
+    "@fontsource/titillium-web": "5.2.5"
+  }
+}
