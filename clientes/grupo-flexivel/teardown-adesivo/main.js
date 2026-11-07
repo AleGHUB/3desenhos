@@ -26,9 +26,7 @@ export const SCRIPT = [
   {t: 21.9, display: 'labels'},
   {t: 25.0, display: 'isolate'},
   {t: 27.6, display: 'isolate'},
-  {t: 28.0, display: 'labels'},
-  {t: 28.3, display: 'exploded'},
-  {t: 28.6, view: 'hero'},
+  // a vista fica aberta, com as camadas e os rótulos, até o fim do tour
 ];
 export const DURATION = 34;
 const DEFAULTS = {duration: DURATION, fps: 60, theme: 'light', accent: '#8dc63f', hud: {enabled: false, title: 'Flexível · Adesivo Monocomponente', subtitle: ''}, director: {enabled: false}};
