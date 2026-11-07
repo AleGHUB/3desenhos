@@ -95,7 +95,8 @@ function makeLabels(st) {
     const stack = (col, x, w) => {
       let y = 250;
       for (const c of col) {
-        y = Math.max(y, Math.min(740, c.at[1]));
+        // a última caixa nunca desce até a barra de controles
+        y = Math.max(y, Math.min(760 - 56 * (col.length - 1 - col.indexOf(c)), c.at[1]));
         out.push({name: c.p.name, sub: c.p.sub, glue: !!c.p.glue, at: c.at, label: [x, y], w, o: o * (extra.iso && !c.p.glue ? 0.35 : 1)});
         y += 56;
       }
@@ -234,7 +235,12 @@ runSim(DEFAULTS, async ({canvas, capture}) => {
       if (DISPLAY.includes(k)) {
         live.on[k] ^= 1;
         live.flip[k] = t;
-        if (k === 'exploded' && live.on[k] && live.view === 'profile') setView('hero', t);
+        // explodir mostra o adesivo já curado, como camada contínua (igual ao vídeo aos 22 s)
+        if (k === 'exploded' && live.on[k]) {
+          live.s = S;
+          live.playing = false;
+          setView('wide', t);
+        }
       } else if (VIEWS.includes(k)) setView(k, t);
       else if (k === 'play') {
         if (live.s >= S) live.s = 0;
@@ -275,6 +281,11 @@ runSim(DEFAULTS, async ({canvas, capture}) => {
       if (keys[e.key]) {
         live.on[keys[e.key]] ^= 1;
         live.flip[keys[e.key]] = t;
+        if (keys[e.key] === 'exploded' && live.on.exploded) {
+          live.s = S;
+          live.playing = false;
+          setView('wide', t);
+        }
       } else if (['1', '2', '3', '4'].includes(e.key)) live.s = STEPS[+e.key - 1].from;
       else if (e.key === ' ') live.playing = !live.playing;
     });
