@@ -17,6 +17,7 @@ Estúdio de design, branding, web e automação. Este repositório concentra o k
 |---|---|---|
 | Criar, revisar ou polir qualquer UI/landing page (`/impeccable shape`, `audit`, `critique`, `polish`, `bolder`, `animate`…) | `impeccable` | pbakaus/impeccable (Apache-2.0) |
 | Animação web com GSAP: tweens, timelines, ScrollTrigger, plugins, React, performance | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-plugins`, `gsap-utils`, `gsap-react`, `gsap-frameworks`, `gsap-performance` | greensock/gsap-skills (MIT) |
+| Simulador 3D interativo de máquina/mecanismo (vista explodida, cutaway, tour automático) em HTML offline + vídeo 60 fps com trilha | `teardown` | elvarofficial/teardown (MIT) |
 | Foto amadora de produto → ad vertical 15s cinematográfico (Higgsfield + Kling + ffmpeg) | `product-ad-cinema` | Agent Lab |
 | Roteiro de Reel com tom extraído de um Instagram de referência + hashtags + trilhas | `reel-roteiro` | Agent Lab |
 | Estressar um plano/ideia com perguntas duras (gatilho: "grill") | `grilling` | mattpocock/skills (MIT) |
@@ -60,3 +61,4 @@ Para estas tarefas, use a ferramenta nativa do Claude Code, não crie agent/skil
 - `impeccable`: o launcher baixa o próprio binário na primeira execução (`.claude/skills/impeccable/scripts/impeccable context`).
 - `product-ad-cinema` e `/banco-imagens`: Higgsfield CLI logada (`higgsfield auth login`), `ffmpeg` e `jq`.
 - `reel-roteiro`: WebSearch/WebFetch; para Instagram, um browser (Playwright/Claude in Chrome) funciona melhor.
+- `teardown`: Node 20+, `npm install` na pasta da skill (node_modules não é versionado), `ffmpeg` e Python 3. Na nuvem, use o Chromium do ambiente (`CHROMIUM=/opt/pw-browsers/chromium`) em vez de `npx playwright install`; saídas em `teardown-out/` (fora do git).

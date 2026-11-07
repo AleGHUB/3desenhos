@@ -7,3 +7,7 @@ input/
 .impeccable/cache/
 
 .DS_Store
+
+# Builds e renders da skill teardown
+teardown-out/
+.claude/skills/teardown/node_modules/
